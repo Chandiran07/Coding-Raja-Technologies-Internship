@@ -1,34 +1,60 @@
 # To-Do-List
-This is a simple To-Do List application with a graphical user interface (GUI) created using Python and the Tkinter library. It allows users to add, delete, and set due dates for tasks. The tasks are stored in text files for persistence across sessions.
+This is a simple To-Do List application with a graphical user interface (GUI) created using Python and the Tkinter library. It allows users to add, delete, and set due dates for tasks. The tasks are stored in text files fddor persistence across sessions.
+## To-Do List Application
+# Overview
+This is a simple To-Do List application built using Tkinter in Python. It allows users to add tasks, mark tasks as completed, and set due dates for tasks.
 
-## Features
+# Features
+Add tasks to the to-do list.
+Delete tasks from the to-do list.
+Set due dates for tasks.
+View tasks with due dates.
 
-- **Add Task**: Enter task descriptions and click the "ADD" button to add tasks to the list.
-- **Delete Task**: Select a task from the list and click the "DELETE" button to remove it.
-- **Set Due Date**: Select a task from the list, enter a due date, and click the "SET DUE" button to associate a due date with the task.
-- **Show Due Tasks**: Click the "DUE" button to display tasks with due dates.
+# How to Use
+Add Task:
 
-## Usage
+Enter a task in the "Add Task" section.
+Click the "ADD" button to add the task to the list.
+Delete Task:
 
-1. Ensure you have Python installed on your system.
-2. Run the application by executing the following command in your terminal or command prompt:
+Select a task from the "Tasks" list.
+Click the "DELETE" button to remove the selected task.
+Set Due Date:
 
-   ```bash
-   python todo_app.py
+Select a task from the "Tasks" list.
+Enter the due date in the text area.
+Click the "SET DUE" button to set the due date for the selected task.
+View Due Tasks:
 
-   The application window will open. You can interact with it using the provided buttons and text fields.
+Click the "DUE" button to view tasks with due dates.
 
-Tasks are stored in the following files:
+# Persistence
+Task data is stored in a file named data.txt.
+Due dates are stored in a file named dueData.txt.
 
-data.txt: Stores tasks without due dates.
-dueData.txt: Stores tasks with associated due dates.
-The application provides a simple way to manage your to-do list tasks.
+# Installation
+Clone the repository:
 
-Contributing
-If you'd like to contribute to this project, please fork the repository and create a pull request. Feel free to add new features or improve the existing code.
+bash
+Copy code
+git clone https://github.com/your-username/todo-list.git
+Navigate to the project directory:
 
-License
+bash
+Copy code
+cd todo-list
+Run the application:
+
+bash
+Copy code
+python todo.py
+
+# Requirements
+Python 3.x
+Tkinter (usually included with Python)
+
+# Contributing
+Feel free to open issues and submit pull requests to help improve the application.
+
+# License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-Acknowledgments
-This project was created as a simple example of a to-do list application using Python and Tkinter.
