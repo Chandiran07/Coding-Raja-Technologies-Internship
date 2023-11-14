@@ -37,7 +37,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/todo-list.git
+git clone https://github.com/chandiran07/todo-list.git
 Navigate to the project directory:
 
 bash
